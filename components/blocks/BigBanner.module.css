@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  height: 658px;
+  width: 100vw;
+
+}
+
+.banner {
+  width: 100vw;
+  height: 658px;
+  background-image: url(../../images/big-banner.jpg);
+  background-size: cover;
+  border: 0;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, 510px);
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}

@@ -1,12 +1,17 @@
+import BigBanner from "../components/BigBanner";
+import Menu from "../components/Menu";
 
 const Index = () => {
-    return (
-            <div>
-
-                <h1>Главная страница</h1>
-
-            </div>
-    );
+  return (
+    <div>
+      <div className="page">
+        <div className="page__container">
+          <Menu />
+          <BigBanner />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Index;
