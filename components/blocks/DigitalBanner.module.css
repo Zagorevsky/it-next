@@ -7,7 +7,7 @@
 .banner {
   width: 100vw;
   height: 658px;
-  background-image: url(../../images/big-banner.jpg);
+  /* background-image: url(../../images/fon-banner.jpeg); */
   background-size: cover;
   border: 0;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 .h1 {
   font-family: 'open-sans', Arial, sans-serif;
   font-weight: normal;
-  font-size: 62px;
+  font-size: 46px;
   margin: 0;
   padding: 0;
 }
@@ -36,4 +36,11 @@
   margin: 30px 0 30px 0;
   font-size: 20px;
   line-height: 32px;
+}
+
+.image {
+  background-image: url(../../images/df.jpg);
+  background-size: 476px 400px;
+  width: 476px;
+  height: 400px;
 }

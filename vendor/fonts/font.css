@@ -1,0 +1,13 @@
+@font-face {
+  src: url("open-sans.woff2") format("woff2"),
+       url("open-sans.woff") format("woff");
+  font-family: 'open-sans';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("Inter-Black.woff2") format("woff2"),
+       url("Inter-Black.woff") format("woff");
+  font-family: 'Roboto';
+  font-weight: medium;
+}

@@ -1,4 +1,6 @@
 import BigBanner from "../components/BigBanner";
+import DigitalBanner from "../components/DigitalBanner";
+
 import Menu from "../components/Menu";
 
 const Index = () => {
@@ -8,6 +10,7 @@ const Index = () => {
         <div className="page__container">
           <Menu />
           <BigBanner />
+          <DigitalBanner />
         </div>
       </div>
     </div>
