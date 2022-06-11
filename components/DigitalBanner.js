@@ -6,7 +6,7 @@ const DigitalBanner = () => {
     <section className={ styles.container }>
       <div className={ styles.banner }>
         <div className={ styles.block }>
-          <h1 className={ styles.h1 }>Поставщик цифровых решений для ваших брендов </h1>
+          <h2 className={ styles.h1 }>Поставщик цифровых решений для ваших брендов </h2>
           <p className={ styles.p }>Я нарушаю все границы, если они возникают
             на пути развития Твоего проекта!</p>
           <ButtonReadMore txtButton="БОЛЬШЕ ИНФОРМАЦИИ" />
