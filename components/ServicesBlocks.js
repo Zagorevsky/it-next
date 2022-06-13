@@ -1,11 +1,12 @@
 import styles from './blocks/ServicesBlocks.module.css';
+import Block from './UI/Block';
 
-const ServicesBlocks = () => {
+const ServicesBlocks = (props) => {
   return (
     <section className={ styles.container }>
-      <div >
-        <div className={ styles.image }></div>
-      </div>
+     <ul className="elements">
+          {/* {props.block.map(({ key, ...props }) => (<Block key={key} {...props} />))} */}
+        </ul>
     </section>
   );
 };
